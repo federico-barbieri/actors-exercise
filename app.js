@@ -47,7 +47,7 @@ function handleData(data){
 
             let movieName = actorsClone.querySelector('p');
             
-            uniqueA.addEventListener('mouseover', () => {
+            uniqueA.addEventListener('click', () => {
                 movieName.style.opacity = 1;
             })
 
